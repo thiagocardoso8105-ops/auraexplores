@@ -1,0 +1,25 @@
+
+{
+  "name": "Aura Explorer",
+  "short_name": "Aura",
+  "description": "Gerenciador de arquivos inteligente com IA.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#2563eb",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://api.dicebear.com/7.x/initials/svg?seed=AE&backgroundColor=2563eb",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://api.dicebear.com/7.x/initials/svg?seed=AE&backgroundColor=2563eb",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
