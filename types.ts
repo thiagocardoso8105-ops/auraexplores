@@ -9,11 +9,13 @@ export interface FileItem {
   type: 'file' | 'folder';
   category?: FileCategory;
   extension?: string;
-  size: number; // in bytes
+  size: number;
   modifiedAt: string;
   parentId: string | null;
-  content?: string; // For text files simulation
-  color?: string; // For folders
+  content?: string;
+  color?: string;
+  handle?: FileSystemHandle; // Reference to the real system file/folder
+  realFile?: File; // For direct access
 }
 
 export interface ChatMessage {
